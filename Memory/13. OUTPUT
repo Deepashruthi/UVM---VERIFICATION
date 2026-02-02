@@ -1,0 +1,46 @@
+UVM_INFO @ 0: reporter [RNTST] Running test my_test...
+UVM_INFO environment.sv(11) @ 0: uvm_test_top.env [ENV] Environment Created
+UVM_INFO sequence.sv(12) @ 0: uvm_test_top.env.agent.COMP_395@@ [SEQ] Sequence starts
+UVM_INFO scoreboard.sv(30) @ 6: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |wr=0|d_in=0|addr=0|Actual output: d_out=0||Expected output: exp_out=0
+UVM_INFO scoreboard.sv(30) @ 16: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |wr=0|d_in=197|addr=1|Actual output: d_out=0||Expected output: exp_out=0
+UVM_INFO scoreboard.sv(30) @ 26: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |wr=0|d_in=126|addr=10|Actual output: d_out=0||Expected output: exp_out=0
+UVM_INFO scoreboard.sv(24) @ 36: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=243|addr=5|d_out=0
+UVM_INFO scoreboard.sv(24) @ 46: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=228|addr=0|d_out=0
+UVM_INFO scoreboard.sv(24) @ 56: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=188|addr=2|d_out=0
+UVM_INFO scoreboard.sv(30) @ 66: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |wr=0|d_in=132|addr=10|Actual output: d_out=0||Expected output: exp_out=0
+UVM_INFO scoreboard.sv(24) @ 76: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=26|addr=3|d_out=0
+UVM_INFO scoreboard.sv(24) @ 86: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=143|addr=4|d_out=0
+UVM_INFO scoreboard.sv(24) @ 96: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=217|addr=7|d_out=0
+UVM_INFO scoreboard.sv(24) @ 106: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=29|addr=6|d_out=0
+UVM_INFO scoreboard.sv(24) @ 116: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=74|addr=10|d_out=0
+UVM_INFO scoreboard.sv(30) @ 126: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |wr=0|d_in=87|addr=3|Actual output: d_out=26||Expected output: exp_out=26
+UVM_INFO scoreboard.sv(24) @ 136: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=113|addr=8|d_out=26
+UVM_INFO scoreboard.sv(30) @ 146: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |wr=0|d_in=174|addr=0|Actual output: d_out=228||Expected output: exp_out=228
+UVM_INFO scoreboard.sv(24) @ 156: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=14|addr=10|d_out=228
+UVM_INFO scoreboard.sv(24) @ 166: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=221|addr=10|d_out=228
+UVM_INFO scoreboard.sv(24) @ 176: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=223|addr=6|d_out=228
+UVM_INFO scoreboard.sv(24) @ 186: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=148|addr=6|d_out=228
+UVM_INFO scoreboard.sv(24) @ 196: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=138|addr=1|d_out=228
+UVM_INFO scoreboard.sv(24) @ 206: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=138|addr=4|d_out=228
+UVM_INFO scoreboard.sv(30) @ 216: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |wr=0|d_in=191|addr=4|Actual output: d_out=138||Expected output: exp_out=138
+UVM_INFO scoreboard.sv(24) @ 226: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=125|addr=7|d_out=138
+UVM_INFO scoreboard.sv(30) @ 236: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |wr=0|d_in=223|addr=8|Actual output: d_out=113||Expected output: exp_out=113
+UVM_INFO scoreboard.sv(24) @ 246: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=143|addr=1|d_out=113
+UVM_INFO scoreboard.sv(30) @ 256: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |wr=0|d_in=109|addr=6|Actual output: d_out=148||Expected output: exp_out=148
+UVM_INFO scoreboard.sv(24) @ 266: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=100|addr=2|d_out=148
+UVM_INFO scoreboard.sv(24) @ 276: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=61|addr=4|d_out=148
+UVM_INFO scoreboard.sv(24) @ 286: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=22|addr=5|d_out=148
+UVM_INFO scoreboard.sv(24) @ 296: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=246|addr=4|d_out=148
+UVM_INFO scoreboard.sv(24) @ 306: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=81|addr=3|d_out=148
+UVM_INFO scoreboard.sv(24) @ 316: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=204|addr=0|d_out=148
+UVM_INFO scoreboard.sv(24) @ 326: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=209|addr=5|d_out=148
+UVM_INFO scoreboard.sv(24) @ 336: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=51|addr=2|d_out=148
+UVM_INFO scoreboard.sv(24) @ 346: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=4|addr=6|d_out=148
+UVM_INFO scoreboard.sv(30) @ 356: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |wr=0|d_in=73|addr=10|Actual output: d_out=221||Expected output: exp_out=221
+UVM_INFO scoreboard.sv(24) @ 366: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=31|addr=7|d_out=221
+UVM_INFO scoreboard.sv(24) @ 376: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=74|addr=4|d_out=221
+UVM_INFO scoreboard.sv(24) @ 386: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=43|addr=1|d_out=221
+UVM_INFO scoreboard.sv(24) @ 396: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT:clk=0 |wr=1|d_in=39|addr=6|d_out=221
+$finish called from file "testbench.sv", line 39.
+$finish at simulation time                  400
+    
