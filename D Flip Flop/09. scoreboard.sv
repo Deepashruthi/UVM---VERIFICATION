@@ -15,11 +15,16 @@ class my_scoreboard extends uvm_scoreboard;
   endfunction
   
   function void write(my_seq_item item);
-    
-    if(((item.q==item.d)&&(!item.rst)) || ((item.q==0)&&(item.rst)))
-      `uvm_info("SB",$sformatf("PASS----> INPUT:clk=%0b |rst=%0b|d=%0b|Actual output: q=%0b||", item.clk,item.rst,item.d,item.q),UVM_LOW)
+    bit exp_q;
+    if(item.rst)
+      exp_q=0;
     else
-      `uvm_error("SB",$sformatf("FAIL----> INPUT:clk=%0b |rst=%0b|d=%0b|Actual output: q=%0b||", item.clk,item.rst,item.d,item.q))
+      exp_q=item.d;
+    
+    if(exp_q == item.q)
+      `uvm_info("SB",$sformatf("PASS----> INPUT:clk=%0b |rst=%0b|d=%0b|Actual output: q=%0b", item.clk,item.rst,item.d,item.q),UVM_LOW)
+    else
+      `uvm_error("SB",$sformatf("FAIL----> INPUT:clk=%0b |rst=%0b|d=%0b|Actual output: q=%0b", item.clk,item.rst,item.d,item.q))
   endfunction
   
 endclass
