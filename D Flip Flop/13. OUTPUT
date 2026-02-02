@@ -1,0 +1,33 @@
+UVM_INFO @ 0: reporter [RNTST] Running test my_test...
+UVM_INFO environment.sv(11) @ 0: uvm_test_top.env [ENV] Environment Created
+UVM_INFO sequence.sv(12) @ 0: uvm_test_top.env.agent.COMP_395@@ [SEQ] Sequence starts
+UVM_INFO scoreboard.sv(20) @ 6: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 16: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 26: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 36: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=1|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 46: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|d=1|Actual output: q=1
+UVM_INFO scoreboard.sv(20) @ 56: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=1|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 66: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 76: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|d=1|Actual output: q=1
+UVM_INFO scoreboard.sv(20) @ 86: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 96: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 106: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 116: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 126: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 136: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 146: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 156: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 166: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 176: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 186: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 196: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 206: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 216: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 226: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 236: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 246: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 256: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 266: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 276: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 286: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
+UVM_INFO scoreboard.sv(20) @ 296: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|d=0|Actual output: q=0
