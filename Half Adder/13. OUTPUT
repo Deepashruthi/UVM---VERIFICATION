@@ -1,0 +1,26 @@
+UVM_INFO @ 0: reporter [RNTST] Running test my_test...
+UVM_INFO environment.sv(14) @ 0: uvm_test_top.env [ENV] Environment Created
+UVM_INFO sequence.sv(14) @ 0: uvm_test_top.env.agnt.sqcr@@seq [SEQ] Sequence starts
+UVM_INFO scoreboard.sv(29) @ 10: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=1 | b=0 | Actual output: sum=1 | carry=0 | Expected output: sum=1 | carry=0
+UVM_INFO scoreboard.sv(29) @ 20: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=0 | b=0 | Actual output: sum=0 | carry=0 | Expected output: sum=0 | carry=0
+UVM_INFO scoreboard.sv(29) @ 30: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=0 | b=1 | Actual output: sum=1 | carry=0 | Expected output: sum=1 | carry=0
+UVM_INFO scoreboard.sv(29) @ 40: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=1 | b=0 | Actual output: sum=1 | carry=0 | Expected output: sum=1 | carry=0
+UVM_INFO scoreboard.sv(29) @ 50: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=1 | b=1 | Actual output: sum=0 | carry=1 | Expected output: sum=0 | carry=1
+UVM_INFO scoreboard.sv(29) @ 60: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=0 | b=0 | Actual output: sum=0 | carry=0 | Expected output: sum=0 | carry=0
+UVM_INFO scoreboard.sv(29) @ 70: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=0 | b=0 | Actual output: sum=0 | carry=0 | Expected output: sum=0 | carry=0
+UVM_INFO scoreboard.sv(29) @ 80: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=0 | b=1 | Actual output: sum=1 | carry=0 | Expected output: sum=1 | carry=0
+UVM_INFO scoreboard.sv(29) @ 90: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=0 | b=0 | Actual output: sum=0 | carry=0 | Expected output: sum=0 | carry=0
+UVM_INFO scoreboard.sv(29) @ 100: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=1 | b=0 | Actual output: sum=1 | carry=0 | Expected output: sum=1 | carry=0
+UVM_INFO scoreboard.sv(29) @ 110: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=0 | b=0 | Actual output: sum=0 | carry=0 | Expected output: sum=0 | carry=0
+UVM_INFO scoreboard.sv(29) @ 120: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=1 | b=1 | Actual output: sum=0 | carry=1 | Expected output: sum=0 | carry=1
+UVM_INFO scoreboard.sv(29) @ 130: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=1 | b=0 | Actual output: sum=1 | carry=0 | Expected output: sum=1 | carry=0
+UVM_INFO scoreboard.sv(29) @ 140: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=0 | b=0 | Actual output: sum=0 | carry=0 | Expected output: sum=0 | carry=0
+UVM_INFO scoreboard.sv(29) @ 150: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=1 | b=0 | Actual output: sum=1 | carry=0 | Expected output: sum=1 | carry=0
+UVM_INFO scoreboard.sv(29) @ 160: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=0 | b=1 | Actual output: sum=1 | carry=0 | Expected output: sum=1 | carry=0
+UVM_INFO scoreboard.sv(29) @ 170: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=1 | b=0 | Actual output: sum=1 | carry=0 | Expected output: sum=1 | carry=0
+UVM_INFO scoreboard.sv(29) @ 180: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=1 | b=1 | Actual output: sum=0 | carry=1 | Expected output: sum=0 | carry=1
+UVM_INFO scoreboard.sv(29) @ 190: uvm_test_top.env.sb [SB] PASS--------> INPUT: a=0 | b=0 | Actual output: sum=0 | carry=0 | Expected output: sum=0 | carry=0
+$finish called from file "testbench.sv", line 30.
+$finish at simulation time                  200
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 200 ns
