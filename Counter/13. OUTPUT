@@ -1,0 +1,37 @@
+UVM_INFO @ 0: reporter [RNTST] Running test my_test...
+UVM_INFO environment.sv(11) @ 0: uvm_test_top.env [ENV] Environment Created
+UVM_INFO sequence.sv(12) @ 0: uvm_test_top.env.agent.seqncr@@seq [SEQ] Sequence Starts
+UVM_INFO scoreboard.sv(28) @ 6: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|en=0|Actual output: count=0 || Exp output=0
+UVM_INFO scoreboard.sv(28) @ 16: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|en=1|Actual output: count=0 || Exp output=0
+UVM_INFO scoreboard.sv(28) @ 26: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=1|en=1|Actual output: count=0 || Exp output=0
+UVM_INFO scoreboard.sv(28) @ 36: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=0|Actual output: count=0 || Exp output=0
+UVM_INFO scoreboard.sv(28) @ 46: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=1 || Exp output=1
+UVM_INFO scoreboard.sv(28) @ 56: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=0|Actual output: count=1 || Exp output=1
+UVM_INFO scoreboard.sv(28) @ 66: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=2 || Exp output=2
+UVM_INFO scoreboard.sv(28) @ 76: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=3 || Exp output=3
+UVM_INFO scoreboard.sv(28) @ 86: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=4 || Exp output=4
+UVM_INFO scoreboard.sv(28) @ 96: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=0|Actual output: count=4 || Exp output=4
+UVM_INFO scoreboard.sv(28) @ 106: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=5 || Exp output=5
+UVM_INFO scoreboard.sv(28) @ 116: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=0|Actual output: count=5 || Exp output=5
+UVM_INFO scoreboard.sv(28) @ 126: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=0|Actual output: count=5 || Exp output=5
+UVM_INFO scoreboard.sv(28) @ 136: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=6 || Exp output=6
+UVM_INFO scoreboard.sv(28) @ 146: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=0|Actual output: count=6 || Exp output=6
+UVM_INFO scoreboard.sv(28) @ 156: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=7 || Exp output=7
+UVM_INFO scoreboard.sv(28) @ 166: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=8 || Exp output=8
+UVM_INFO scoreboard.sv(28) @ 176: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=9 || Exp output=9
+UVM_INFO scoreboard.sv(28) @ 186: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=0|Actual output: count=9 || Exp output=9
+UVM_INFO scoreboard.sv(28) @ 196: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=0|Actual output: count=9 || Exp output=9
+UVM_INFO scoreboard.sv(28) @ 206: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=10 || Exp output=10
+UVM_INFO scoreboard.sv(28) @ 216: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=11 || Exp output=11
+UVM_INFO scoreboard.sv(28) @ 226: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=12 || Exp output=12
+UVM_INFO scoreboard.sv(28) @ 236: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=13 || Exp output=13
+UVM_INFO scoreboard.sv(28) @ 246: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=14 || Exp output=14
+UVM_INFO scoreboard.sv(28) @ 256: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=15 || Exp output=15
+UVM_INFO scoreboard.sv(28) @ 266: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=0 || Exp output=0
+UVM_INFO scoreboard.sv(28) @ 276: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=1 || Exp output=1
+UVM_INFO scoreboard.sv(28) @ 286: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=2 || Exp output=2
+UVM_INFO scoreboard.sv(28) @ 296: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=3 || Exp output=3
+UVM_INFO scoreboard.sv(28) @ 306: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=4 || Exp output=4
+UVM_INFO scoreboard.sv(28) @ 316: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=5 || Exp output=5
+UVM_INFO scoreboard.sv(28) @ 326: uvm_test_top.env.sb [SB] PASS----> INPUT:clk=0 |rst=0|en=1|Actual output: count=6 || Exp output=6
+$finish called from file "testbench.sv", line 41.
