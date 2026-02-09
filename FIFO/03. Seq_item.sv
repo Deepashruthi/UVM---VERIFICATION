@@ -17,17 +17,7 @@ class my_seq_item #( parameter Width = 8) extends uvm_sequence_item;
   endfunction
   
   
-  constraint c1 { 
-    wr_en -> d_in inside { [0 : (1<<Width)-1] };
-    !wr_en -> d_in == 0;
-  }
-  
-  constraint c2 {
-    wr_en dist { 1:=50, 0:=50 }; 
-    rd_en dist { 1:=50, 0:=50 };
-  }
-  
-  constraint c3{ 
+  constraint c1{ 
     wr_en != rd_en;
   }
   
