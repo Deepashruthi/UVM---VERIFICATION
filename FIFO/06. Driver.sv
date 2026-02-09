@@ -18,6 +18,7 @@ class my_driver extends uvm_driver#(my_seq_item );
       
   task run_phase(uvm_phase phase);
     super.run_phase(phase); 
+    @(negedge vif.rst);
     forever begin
       req=my_seq_item#() ::type_id::create("req");
       seq_item_port.get_next_item(req);
@@ -34,4 +35,6 @@ class my_driver extends uvm_driver#(my_seq_item );
   endtask
   
 endclass
+    
+        
     
