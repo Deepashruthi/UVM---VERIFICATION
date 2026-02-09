@@ -1,0 +1,31 @@
+UVM_INFO @ 0: reporter [RNTST] Running test my_test...
+UVM_INFO environment.sv(11) @ 0: uvm_test_top.env [ENV] Environment Created
+UVM_INFO sequence.sv(12) @ 0: uvm_test_top.env.agent.COMP_395@@ [SEQ] Sequence starts
+UVM_INFO scoreboard.sv(24) @ 6: uvm_test_top.env.sb [SB] Reset Ignored
+UVM_INFO scoreboard.sv(24) @ 16: uvm_test_top.env.sb [SB] Reset Ignored
+UVM_INFO scoreboard.sv(24) @ 26: uvm_test_top.env.sb [SB] Reset Ignored
+UVM_INFO scoreboard.sv(24) @ 36: uvm_test_top.env.sb [SB] Reset Ignored
+UVM_INFO scoreboard.sv(24) @ 46: uvm_test_top.env.sb [SB] Reset Ignored
+UVM_INFO scoreboard.sv(38) @ 66: uvm_test_top.env.sb [SB] PASS----> INPUT: wr_en=0|rd_en=1|d_in=197|Actual output: d_out=0||Expected output: exp_out=0
+UVM_INFO scoreboard.sv(34) @ 86: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT: d_in=126
+UVM_INFO scoreboard.sv(34) @ 106: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT: d_in=243
+UVM_INFO scoreboard.sv(38) @ 126: uvm_test_top.env.sb [SB] PASS----> INPUT: wr_en=0|rd_en=1|d_in=228|Actual output: d_out=126||Expected output: exp_out=126
+UVM_INFO scoreboard.sv(38) @ 146: uvm_test_top.env.sb [SB] PASS----> INPUT: wr_en=0|rd_en=1|d_in=188|Actual output: d_out=243||Expected output: exp_out=243
+UVM_INFO scoreboard.sv(38) @ 166: uvm_test_top.env.sb [SB] PASS----> INPUT: wr_en=0|rd_en=1|d_in=132|Actual output: d_out=243||Expected output: exp_out=243
+UVM_INFO scoreboard.sv(34) @ 186: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT: d_in=26
+UVM_INFO scoreboard.sv(34) @ 206: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT: d_in=143
+UVM_INFO scoreboard.sv(38) @ 226: uvm_test_top.env.sb [SB] PASS----> INPUT: wr_en=0|rd_en=1|d_in=217|Actual output: d_out=26||Expected output: exp_out=26
+UVM_INFO scoreboard.sv(38) @ 246: uvm_test_top.env.sb [SB] PASS----> INPUT: wr_en=0|rd_en=1|d_in=29|Actual output: d_out=143||Expected output: exp_out=143
+UVM_INFO scoreboard.sv(34) @ 266: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT: d_in=74
+UVM_INFO scoreboard.sv(38) @ 286: uvm_test_top.env.sb [SB] PASS----> INPUT: wr_en=0|rd_en=1|d_in=87|Actual output: d_out=74||Expected output: exp_out=74
+UVM_INFO scoreboard.sv(34) @ 306: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT: d_in=113
+UVM_INFO scoreboard.sv(38) @ 326: uvm_test_top.env.sb [SB] PASS----> INPUT: wr_en=0|rd_en=1|d_in=174|Actual output: d_out=113||Expected output: exp_out=113
+UVM_INFO scoreboard.sv(34) @ 346: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT: d_in=14
+UVM_INFO scoreboard.sv(34) @ 366: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT: d_in=221
+UVM_INFO scoreboard.sv(34) @ 386: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT: d_in=223
+UVM_INFO scoreboard.sv(34) @ 406: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT: d_in=148
+UVM_INFO scoreboard.sv(38) @ 426: uvm_test_top.env.sb [SB] PASS----> INPUT: wr_en=0|rd_en=1|d_in=138|Actual output: d_out=14||Expected output: exp_out=14
+UVM_INFO scoreboard.sv(34) @ 446: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT: d_in=138
+UVM_INFO scoreboard.sv(34) @ 466: uvm_test_top.env.sb [SB] WRITE PASS: ----> INPUT: d_in=191
+UVM_INFO scoreboard.sv(38) @ 486: uvm_test_top.env.sb [SB] PASS----> INPUT: wr_en=0|rd_en=1|d_in=125|Actual output: d_out=221||Expected output: exp_out=221
+$finish called from file "testbench.sv", line 48.
